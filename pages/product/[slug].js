@@ -28,7 +28,7 @@ export default function ProductScreen() {
       <div className={classes.section}>
         <NextLink href="/" passHref>
           <Link>
-            <Typography>back to products</Typography>
+            <Typography>Home Page</Typography>
           </Link>
         </NextLink>
       </div>
@@ -37,8 +37,8 @@ export default function ProductScreen() {
           <Image
             src={product.image}
             alt={product.name}
-            width={640}
-            height={640}
+            width={174}
+            height={250}
             layout="responsive"
           ></Image>
         </Grid>
@@ -48,18 +48,19 @@ export default function ProductScreen() {
               <Typography component="h1">{product.name}</Typography>
             </ListItem>
             <ListItem>
-              <Typography>Category: {product.category}</Typography>
+              <Typography>Categoria: {product.category}</Typography>
             </ListItem>
             <ListItem>
-              <Typography>Brand: {product.brand}</Typography>
+              <Typography>Escrito por: {product.brand}</Typography>
             </ListItem>
             <ListItem>
               <Typography>
-                Rating: {product.rating} stars ({product.numReviews} reviews)
+                Avaliações: {product.rating} estrelas ({product.numReviews}{' '}
+                comentários)
               </Typography>
             </ListItem>
             <ListItem>
-              <Typography> Description: {product.description}</Typography>
+              <Typography> Descrição: {product.description}</Typography>
             </ListItem>
           </List>
         </Grid>
@@ -83,14 +84,16 @@ export default function ProductScreen() {
                   </Grid>
                   <Grid item xs={6}>
                     <Typography>
-                      {product.countInStock > 0 ? 'In stock' : 'Unavailable'}
+                      {product.countInStock > 0
+                        ? 'Em Estoque'
+                        : 'Produto em falta'}
                     </Typography>
                   </Grid>
                 </Grid>
               </ListItem>
               <ListItem>
                 <Button fullWidth variant="contained" color="primary">
-                  Add to cart
+                  Adicionar ao Carrinho
                 </Button>
               </ListItem>
             </List>

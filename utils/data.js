@@ -6,11 +6,13 @@ const data = {
       category: 'Shirts',
       image: '/images/imagem01.jpg',
       price: 1000,
-      brand: 'Nike',
+      brand:
+        ' Vitor Castanheira Abel Ferreira, Carlos Martinho, João Martins, Tiago Costa (Autor), Celso de Campos Jr (Editor).',
       rating: 4.5,
       numReviews: 10,
       countInStock: 20,
-      description: 'Cabeça Fria, Coração Quente',
+      description:
+        'Escrito em primeira pessoa pela equipa técnica liderada pelo treinador Abel Ferreira, o livro “Cabeça fria, coração quente” faz uma viagem pelos bastidores das conquistas do Palmeiras nas temporadas de 2020 e 2021, culminando no bicampeonato da Copa Libertadores da América. A obra traz as experiências e os desafios enfrentados pelos profissionais portugueses ao longo de seus 13 primeiros meses no futebol brasileiro, com revelações inéditas sobre o pensamento, a filosofia e os métodos de trabalho da comissão – incluindo detalhes inéditos da preparação de 16 jogos-chave, com exercícios e as respectivas análises pré e pós-jogo.',
     },
     {
       name: 'Imponente - a Rec. Do Palmeiras, da Ar. Ao Decat',
