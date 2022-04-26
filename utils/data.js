@@ -3,7 +3,7 @@ const data = {
     {
       name: 'Cabeça Fria, Coração Quente',
       slug: 'cabeca-fria-coracao-quente',
-      category: 'Shirts',
+      category: 'Esportes',
       image: '/images/imagem01.jpg',
       price: 1000,
       brand:
@@ -17,7 +17,7 @@ const data = {
     {
       name: 'Imponente - a Rec. Do Palmeiras, da Ar. Ao Decat',
       slug: 'imponente',
-      category: 'Shirts',
+      category: 'Esportes',
       image: '/images/imagem02.jpg',
       price: 80,
       brand: 'Adidas',
@@ -29,7 +29,7 @@ const data = {
     {
       name: 'Guardiola Confidencial: Um Ano Dentro Do Bayern De Munique Acompanhando De Perto O Técnico Que Mudou O Futebol Para Sempre',
       slug: 'guardiola-confidencial',
-      category: 'Shirts',
+      category: 'Esportes',
       image: '/images/imagem03.jpg',
       price: 90,
       brand: 'Raymond',
@@ -41,7 +41,7 @@ const data = {
     {
       name: 'A pirâmide invertida: A história da tática no futebol',
       slug: 'piramede-invertida',
-      category: 'Pants',
+      category: 'Esportes',
       image: '/images/imagem04.jpg',
       price: 90,
       brand: 'Oliver',
@@ -53,7 +53,7 @@ const data = {
     {
       name: 'Mourinho Rockstar: As Diversas Faces Do Técnico Mais Polêmico Do Mundo',
       slug: 'mourinho-rockstar',
-      category: 'Pants',
+      category: 'Esportes',
       image: '/images/imagem05.jpg',
       price: 95,
       brand: 'Zara',
@@ -65,7 +65,7 @@ const data = {
     {
       name: 'Escola brasileira de futebol',
       slug: 'escola-brasileira-de-futebol',
-      category: 'Pants',
+      category: 'Esportes',
       image: '/images/imagem06.jpg',
       price: 75,
       brand: 'Casely',
