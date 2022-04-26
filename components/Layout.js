@@ -12,6 +12,7 @@ import {
   CssBaseline,
 } from '@material-ui/core';
 import useStyles from '../utils/styles';
+import { createTheme } from '@material-ui/core/styles';
 
 export default function Layout({ title, description, children }) {
   const theme = createMuiTheme({
