@@ -33,7 +33,7 @@ export default function Home() {
                 <CardActions>
                   <Typography>${product.price}</Typography>
                   <Button size="small" color="primary">
-                    Add to cart
+                    Adicionar ao Carrinho
                   </Button>
                 </CardActions>
               </Card>
