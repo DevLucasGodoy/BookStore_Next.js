@@ -1,6 +1,13 @@
 import React, { children } from 'react';
 import Head from 'next/head';
-import { AppBar, Container, Toolbar, Typography } from '@material-ui/core';
+import NextLink from 'next/link';
+import {
+  AppBar,
+  Toolbar,
+  Typography,
+  Container,
+  Link,
+} from '@material-ui/core';
 import useStyles from '../utils/styles';
 
 export default function Layout({ children }) {
@@ -13,7 +20,22 @@ export default function Layout({ children }) {
 
       <AppBar position="static" className={classes.navbar}>
         <Toolbar>
-          <Typography>Livraria do Godoy</Typography>
+          <NextLink href="/" passHref>
+            <Link>
+              <Typography className={classes.brand}>
+                Livraria do Godoy
+              </Typography>
+            </Link>
+          </NextLink>
+          <div className={classes.grow}></div>
+          <div>
+            <NextLink href="/cart" passHref>
+              <Link>Carrinho</Link>
+            </NextLink>
+            <NextLink href="/login" passHref>
+              <Link>Login</Link>
+            </NextLink>
+          </div>
         </Toolbar>
       </AppBar>
 
