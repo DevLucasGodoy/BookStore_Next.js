@@ -1,4 +1,4 @@
-import React, { children, useContext } from 'react';
+import React, { useContext } from 'react';
 import Head from 'next/head';
 import NextLink from 'next/link';
 import {
@@ -15,7 +15,7 @@ import {
 import useStyles from '../utils/styles';
 import { Store } from '../utils/Store';
 import Cookies from 'js-cookie';
-import { createTheme } from '@material-ui/core/styles';
+//import { createTheme } from '@material-ui/core/styles';
 
 export default function Layout({ title, description, children }) {
   const { state, dispatch } = useContext(Store);
