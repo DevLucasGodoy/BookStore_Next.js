@@ -15,7 +15,6 @@ import {
 import useStyles from '../utils/styles';
 import { Store } from '../utils/Store';
 import Cookies from 'js-cookie';
-//import { createTheme } from '@material-ui/core/styles';
 
 export default function Layout({ title, description, children }) {
   const { state, dispatch } = useContext(Store);
